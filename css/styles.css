@@ -273,8 +273,11 @@ header a:not(.logo):focus .nav-contact-icon {
   font-weight: var(--primary-font-weight);
   font-size: var(--secondary-font-size);
   line-height: 1.14;
-  text-align: center;
-  padding-top: 27px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
